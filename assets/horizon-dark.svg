@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="160" viewBox="0 0 1280 160" role="img" aria-label="Small steps. Deep roots.">
+<defs><linearGradient id="fade" x2="1" y2="0"><stop stop-color="#71F0DF" stop-opacity="0"/><stop offset=".5" stop-color="#71F0DF" stop-opacity=".5"/><stop offset="1" stop-color="#A58BFA" stop-opacity="0"/></linearGradient><linearGradient id="trail" x2="1" y2="0"><stop stop-color="#71F0DF" stop-opacity="0"/><stop offset="1" stop-color="#A58BFA"/></linearGradient></defs>
+<style>.flow{stroke-dasharray:90 1300;animation:flow 15s linear infinite}@keyframes flow{to{stroke-dashoffset:-1390}}.b{animation:pulse 6s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.b{animation:none}}</style>
+<g fill="none" stroke="url(#fade)"><path d="M0 104C180 155 302 33 489 84S773 159 942 87S1130 55 1280 84" opacity=".4"/><path d="M0 120C180 171 302 49 489 100S773 175 942 103S1130 71 1280 100" opacity=".2"/><path class="flow" d="M0 104C180 155 302 33 489 84S773 159 942 87S1130 55 1280 84" stroke="url(#trail)" stroke-width="1.7"/></g>
+<text x="640" y="56" text-anchor="middle" fill="#B1BED8" font-family="Consolas,'Courier New',monospace" font-size="16" letter-spacing="3">SMALL STEPS. DEEP ROOTS.</text>
+<g class="b" transform="translate(640 99)" fill="none" stroke="#71F0DF" stroke-width="1.2"><path d="M0 -16L-7 -5H-4L-11 7H11L4 -5H7Z M0 7V16"/></g>
+</svg>

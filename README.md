@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/forest-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/forest-light.svg">
-  <img alt="Nelpine — Stay curious. Keep growing. 松林、月光与星轨。" src="assets/forest-light.svg" width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/aurora-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/aurora-light.svg">
+  <img alt="Nelpine — Stay curious. Keep growing. 极光、星云、松林与流光姓名。" src="assets/aurora-light.svg" width="1200">
 </picture>
 
 <p align="center">
@@ -12,7 +12,11 @@
   <a href="https://github.com/Nelpine#js-contribution-activity">Activity · 开发足迹</a>
 </p>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/starlight-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/starlight-light.svg">
+  <img alt="星光流动分隔线" src="assets/starlight-light.svg" width="1200">
+</picture>
 
 ### 你好，我是 Nelpine 👋
 
@@ -22,7 +26,11 @@
 
 <sub>Learning by building. One small step at a time.</sub>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/starlight-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/starlight-light.svg">
+  <img alt="星光流动分隔线" src="assets/starlight-light.svg" width="1200">
+</picture>
 
 ### 🌱 正在探索 · Exploring
 
@@ -42,7 +50,7 @@
 > 好的代码，和树一样，需要耐心生长。 🌲
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/trail-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/trail-light.svg">
-  <img alt="Small steps. Deep roots. 一步一步，向下扎根。" src="assets/trail-light.svg" width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/horizon-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/horizon-light.svg">
+  <img alt="Small steps. Deep roots. 一步一步，向下扎根。" src="assets/horizon-light.svg" width="1200">
 </picture>
