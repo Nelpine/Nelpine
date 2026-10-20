@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="Small steps. Deep roots.">
+    <path d="M0 76Q140 25 295 63T600 56T900 60T1200 47" fill="none" stroke="#73A8B4" stroke-width="1" opacity=".4"/>
+    <g transform="translate(67 74)" fill="#227C72"><path d="M0 -31 L-6.82 -15.81 H-3.7199999999999998 L-10.540000000000001 -6.82 H-5.89 L-13.33 0 H13.33 L5.89 -6.82 H10.540000000000001 L3.7199999999999998 -15.81 H6.82 Z"/><rect x="-0.775" y="-3" width="1.55" height="4.03"/></g><g transform="translate(91 78)" fill="#227C72"><path d="M0 -43 L-9.46 -21.93 H-5.16 L-14.620000000000001 -9.46 H-8.17 L-18.49 0 H18.49 L8.17 -9.46 H14.620000000000001 L5.16 -21.93 H9.46 Z"/><rect x="-1.075" y="-3" width="2.15" height="5.59"/></g>
+    <rect x="399" y="29" width="402" height="39" rx="19" fill="#E8F2F4"/>
+    <text x="600" y="54" text-anchor="middle" fill="#4B7180" font-family="Consolas,'Courier New',monospace" font-size="16" letter-spacing="2">SMALL STEPS. DEEP ROOTS.</text>
+    <circle cx="1139" cy="51" r="4" fill="#227C72"/>
+    </svg>

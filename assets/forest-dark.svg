@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Nelpine — Stay curious. Keep growing.</title>
+  <desc id="desc">An original blue-hour pine forest, a warm moon and an orbital trail. A quiet place for ideas to grow.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101F32"/><stop offset="1" stop-color="#193F57"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#F4DAB0" stop-opacity=".18"/><stop offset="1" stop-color="#F4DAB0" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="1200" height="420" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .spark{animation:twinkle 7s ease-in-out infinite}.s1{animation-delay:-2s}.s2{animation-delay:-4s}
+    @keyframes twinkle{0%,100%{opacity:.3}50%{opacity:.85}}
+    @media (prefers-reduced-motion:reduce){.spark{animation:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#sky)"/>
+    <circle cx="932" cy="172" r="192" fill="url(#halo)"/>
+    <g fill="none" stroke="#658C97" stroke-width="1" opacity=".22">
+      <circle cx="932" cy="174" r="151"/><circle cx="932" cy="174" r="166" stroke-dasharray="2 9"/>
+      <path d="M605 0V420 M0 364H1200"/>
+    </g>
+    <circle class="spark s0" cx="655" cy="53" r="1.5" fill="#F4DAB0" opacity=".65"/><circle class="spark s1" cx="745" cy="83" r="2" fill="#F4DAB0" opacity=".65"/><circle class="spark s2" cx="823" cy="38" r="1.3" fill="#F4DAB0" opacity=".65"/><circle class="spark s0" cx="1035" cy="67" r="1.7" fill="#F4DAB0" opacity=".65"/><circle class="spark s1" cx="1124" cy="104" r="1.3" fill="#F4DAB0" opacity=".65"/><circle class="spark s2" cx="690" cy="159" r="1.2" fill="#F4DAB0" opacity=".65"/><circle class="spark s0" cx="1076" cy="179" r="2" fill="#F4DAB0" opacity=".65"/><circle class="spark s1" cx="966" cy="32" r="1" fill="#F4DAB0" opacity=".65"/><circle class="spark s2" cx="1157" cy="37" r="1.3" fill="#F4DAB0" opacity=".65"/><circle class="spark s0" cx="777" cy="174" r="1" fill="#F4DAB0" opacity=".65"/><circle class="spark s1" cx="626" cy="104" r="1.2" fill="#F4DAB0" opacity=".65"/>
+    <circle cx="932" cy="165" r="61" fill="#F4DAB0"/>
+    <circle cx="949" cy="151" r="61" fill="#193F57" opacity=".95"/>
+    <ellipse cx="932" cy="174" rx="206" ry="76" transform="rotate(-26 932 174)" fill="none" stroke="#87D9BC" opacity=".5" stroke-width="1.3"/>
+    <circle cx="1109" cy="116" r="4.5" fill="#87D9BC"/>
+    <path d="M617 337L706 257L753 282L828 216L902 281L972 235L1051 278L1136 207L1200 249V420H617Z" fill="#27596A" opacity=".75"/>
+    <path d="M596 368Q700 300 780 333T948 318T1200 306V420H596Z" fill="#194858"/>
+    <g transform="translate(707 331)" fill="#194858"><path d="M0 -63 L-13.86 -32.13 H-7.56 L-21.42 -13.86 H-11.97 L-27.09 0 H27.09 L11.97 -13.86 H21.42 L7.56 -32.13 H13.86 Z"/><rect x="-1.5750000000000002" y="-3" width="3.1500000000000004" height="8.19"/></g><g transform="translate(761 334)" fill="#194858"><path d="M0 -92 L-20.24 -46.92 H-11.04 L-31.28 -20.24 H-17.48 L-39.56 0 H39.56 L17.48 -20.24 H31.28 L11.04 -46.92 H20.24 Z"/><rect x="-2.3000000000000003" y="-3" width="4.6000000000000005" height="11.96"/></g><g transform="translate(1009 333)" fill="#194858"><path d="M0 -67 L-14.74 -34.17 H-8.04 L-22.78 -14.74 H-12.73 L-28.81 0 H28.81 L12.73 -14.74 H22.78 L8.04 -34.17 H14.74 Z"/><rect x="-1.675" y="-3" width="3.35" height="8.71"/></g><g transform="translate(1061 335)" fill="#194858"><path d="M0 -110 L-24.2 -56.1 H-13.2 L-37.400000000000006 -24.2 H-20.9 L-47.3 0 H47.3 L20.9 -24.2 H37.400000000000006 L13.2 -56.1 H24.2 Z"/><rect x="-2.75" y="-3" width="5.5" height="14.3"/></g><g transform="translate(1134 338)" fill="#194858"><path d="M0 -74 L-16.28 -37.74 H-8.879999999999999 L-25.16 -16.28 H-14.06 L-31.82 0 H31.82 L14.06 -16.28 H25.16 L8.879999999999999 -37.74 H16.28 Z"/><rect x="-1.85" y="-3" width="3.7" height="9.620000000000001"/></g><g transform="translate(810 369)" fill="#102E40"><path d="M0 -103 L-22.66 -52.53 H-12.36 L-35.02 -22.66 H-19.57 L-44.29 0 H44.29 L19.57 -22.66 H35.02 L12.36 -52.53 H22.66 Z"/><rect x="-2.575" y="-3" width="5.15" height="13.39"/></g><g transform="translate(874 374)" fill="#102E40"><path d="M0 -145 L-31.9 -73.95 H-17.4 L-49.300000000000004 -31.9 H-27.55 L-62.35 0 H62.35 L27.55 -31.9 H49.300000000000004 L17.4 -73.95 H31.9 Z"/><rect x="-3.625" y="-3" width="7.25" height="18.85"/></g><g transform="translate(982 375)" fill="#102E40"><path d="M0 -113 L-24.86 -57.63 H-13.559999999999999 L-38.42 -24.86 H-21.47 L-48.589999999999996 0 H48.589999999999996 L21.47 -24.86 H38.42 L13.559999999999999 -57.63 H24.86 Z"/><rect x="-2.825" y="-3" width="5.65" height="14.690000000000001"/></g><g transform="translate(1088 375)" fill="#102E40"><path d="M0 -145 L-31.9 -73.95 H-17.4 L-49.300000000000004 -31.9 H-27.55 L-62.35 0 H62.35 L27.55 -31.9 H49.300000000000004 L17.4 -73.95 H31.9 Z"/><rect x="-3.625" y="-3" width="7.25" height="18.85"/></g><g transform="translate(1180 376)" fill="#102E40"><path d="M0 -114 L-25.080000000000002 -58.14 H-13.68 L-38.760000000000005 -25.080000000000002 H-21.66 L-49.019999999999996 0 H49.019999999999996 L21.66 -25.080000000000002 H38.760000000000005 L13.68 -58.14 H25.080000000000002 Z"/><rect x="-2.85" y="-3" width="5.7" height="14.82"/></g><g transform="translate(704 373)" fill="#102E40"><path d="M0 -49 L-10.78 -24.990000000000002 H-5.88 L-16.66 -10.78 H-9.31 L-21.07 0 H21.07 L9.31 -10.78 H16.66 L5.88 -24.990000000000002 H10.78 Z"/><rect x="-1.225" y="-3" width="2.45" height="6.37"/></g>
+    <path d="M579 406Q720 362 864 390T1200 371V420H579Z" fill="#102E40"/>
+    <g font-family="'Segoe UI',Arial,sans-serif">
+      <g transform="translate(55 52)" fill="none" stroke="#87D9BC" stroke-width="1.8" stroke-linejoin="round">
+        <path d="M11 0L3 12H7L0 23H22L15 12H19Z M11 23V29"/>
+      </g>
+      <text x="92" y="74" fill="#ACC9CD" font-family="Consolas,'Courier New',monospace" font-size="15" letter-spacing="3">A LITTLE SPACE TO GROW</text>
+      <text x="52" y="207" fill="#EDF8F5" font-size="108" font-weight="650" letter-spacing="-5">Nelpine<tspan fill="#87D9BC">.</tspan></text>
+      <text x="58" y="256" fill="#EDF8F5" font-size="25" letter-spacing=".3">Stay curious. Keep growing.</text>
+      <path d="M58 294H101" stroke="#87D9BC" stroke-width="2"/>
+      <text x="58" y="331" fill="#ACC9CD" font-family="Consolas,'Courier New',monospace" font-size="16">LEARN / BUILD / ITERATE</text>
+      <text x="58" y="387" fill="#ACC9CD" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing="2">CODE WITH CURIOSITY</text>
+    </g>
+  </g>
+</svg>
