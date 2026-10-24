@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/v3/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/v3/profile-light.svg">
-  <img src="assets/v3/profile-light.svg" alt="Nelpine · Java Backend / Web Development" width="1100">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v4/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/v4/profile-light.svg">
+  <img src="assets/v4/profile-light.svg" alt="Nelpine · Java Backend / Web Development" width="1100">
 </picture>
 
 <p>
@@ -78,6 +78,16 @@
 
 **构建与部署**：Maven · Docker Compose · Nginx · Linux · GitHub Actions  
 **测试**：JUnit 5 · Testcontainers · Playwright
+
+## GitHub 贡献热力图
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/skyline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/skyline-light.svg">
+  <img src="assets/contributions/skyline-light.svg" alt="Nelpine 的立体 GitHub 贡献热力图：每天一根柱子，按真实贡献次数着色与升高。" width="1100">
+</picture>
+
+<sub>基于 GitHub 公开主页贡献数据，每天自动刷新。柱高采用对数比例，SVG 内包含每日准确次数。</sub>
 
 ---
 
