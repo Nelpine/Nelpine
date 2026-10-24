@@ -79,7 +79,7 @@ def build(html, output=OUTPUT):
     result={'username':'Nelpine','source':'https://github.com/users/Nelpine/contributions',
             'summary':summary(days),'days':days}
     # Parse and validate everything before touching existing chart assets.
-    files={'calendar-dark.svg':render(days,'dark'),'calendar-light.svg':render(days,'light'),
+    files={'orbit-dark.svg':render(days,'dark'),'orbit-light.svg':render(days,'light'),
            'calendar.json':json.dumps(result,ensure_ascii=False,indent=2)+'\n'}
     output.mkdir(parents=True,exist_ok=True)
     for name,body in files.items():
