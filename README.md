@@ -82,12 +82,12 @@
 ## GitHub 贡献热力图
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/skyline-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/skyline-light.svg">
-  <img src="assets/contributions/skyline-light.svg" alt="Nelpine 的立体 GitHub 贡献热力图：每天一根柱子，按真实贡献次数着色与升高。" width="1100">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/calendar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/calendar-light.svg">
+  <img src="assets/contributions/calendar-light.svg" alt="Nelpine 最近三个月的 GitHub 贡献日历，方格颜色代表每日公开贡献次数。" width="1100">
 </picture>
 
-<sub>基于 GitHub 公开主页贡献数据，每天自动刷新。柱高采用对数比例，SVG 内包含每日准确次数。</sub>
+<sub>最近三个月的公开贡献日历，每天自动刷新；颜色表示贡献次数，虚线方格表示未来日期。</sub>
 
 ---
 

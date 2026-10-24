@@ -1,4 +1,4 @@
-name: Update contribution skyline
+name: Update contribution calendar
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/render_contributions.py'
+      - 'scripts/calendar_design.py'
       - 'scripts/test_render_contributions.py'
       - '.github/workflows/update-contributions.yml'
 
@@ -16,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: contribution-skyline
+  group: contribution-calendar
   cancel-in-progress: false
 
 jobs:
@@ -40,5 +41,5 @@ jobs:
             echo 'Contribution data is unchanged.'
             exit 0
           fi
-          git commit -m 'Update public contribution skyline [skip ci]'
+          git commit -m 'Update public contribution calendar [skip ci]'
           git push
