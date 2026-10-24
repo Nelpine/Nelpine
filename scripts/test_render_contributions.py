@@ -20,9 +20,11 @@ class CalendarTests(unittest.TestCase):
         dots = [e for e in root.iter() if 'data-date' in e.attrib]
         self.assertEqual([(e.attrib['data-date'],int(e.attrib['data-count'])) for e in dots],
                          [(d['date'],d['count']) for d in days])
-        self.assertIn('101 public contributions on 2 active days from 2025-10-31 to 2026-01-02', svg)
-        self.assertIn('2025-10-31: 100 contributions', svg)
-        self.assertNotIn('2026-01-03: 0 contributions', svg)
+        self.assertIn('2025-10-31: Public activity', svg)
+        self.assertNotIn('2026-01-03:', svg)
+        text = ''.join(root.itertext())
+        self.assertNotIn('101 public contributions', text)
+        self.assertNotIn('Peak / day', text)
 
     def test_date_mapping_and_counts(self):
         html=fixture([('2026-01-01',0,'No contributions on January 1st.'),
@@ -33,7 +35,25 @@ class CalendarTests(unittest.TestCase):
         for mode in ('dark','light'):
             svg=render(days,mode)
             ET.fromstring(svg)
-            self.assertIn('2026-01-02: 1234 contributions',svg)
+            self.assertIn('2026-01-02: Public activity',svg)
+
+    def test_activity_status_does_not_claim_stale_or_empty_activity_is_recent(self):
+        from calendar_design import activity_status
+        from datetime import date
+        days = [{'date':'2026-01-01','count':1,'level':1},
+                {'date':'2026-02-15','count':0,'level':0}]
+        self.assertEqual(activity_status(days), ('Last public activity',date(2026,1,1),False))
+        self.assertEqual(activity_status(days[1:]), ('No recent public activity',None,False))
+
+    def test_recent_strip_marks_activity_without_ranking_volume(self):
+        days = [{'date':'2026-01-01','count':1,'level':1},
+                {'date':'2026-01-02','count':1234,'level':4}]
+        root = ET.fromstring(render(days, 'dark'))
+        marks = [e for e in root.iter() if 'data-activity-date' in e.attrib]
+        self.assertEqual(len(marks),2)
+        for attr in ('fill','width','height'):
+            self.assertEqual(marks[0].attrib[attr], marks[1].attrib[attr])
+        self.assertTrue(all(e.attrib['data-active']=='true' for e in marks))
 
     def test_rejects_missing_tooltip(self):
         with self.assertRaises(ValueError):

@@ -79,15 +79,15 @@
 **构建与部署**：Maven · Docker Compose · Nginx · Linux · GitHub Actions  
 **测试**：JUnit 5 · Testcontainers · Playwright
 
-## GitHub 贡献热力图
+## 最近动态
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/orbit-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/orbit-light.svg">
-  <img src="assets/contributions/orbit-light.svg" alt="Nelpine 全年贡献星轨。每个星点对应一天，亮度代表贡献次数；底部为按周排列的全年贡献点阵。" width="1100">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/activity-light.svg">
+  <img src="assets/contributions/activity-light.svg" alt="Nelpine 的活动星轨与近 60 天动态。亮点表示有公开活动的日期。" width="1100">
 </picture>
 
-<sub>全年公开贡献，每天自动更新。星点按日期沿轨道排列，连线串起活跃日期；底部点阵保留完整时间顺序。</sub>
+<sub>近期公开活动，每天自动更新。</sub>
 
 ---
 
